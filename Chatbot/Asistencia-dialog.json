@@ -1,0 +1,2219 @@
+{
+  "intents": [
+    {
+      "intent": "collect_city",
+      "examples": [
+        {
+          "text": "Estoy en la ciudad de"
+        },
+        {
+          "text": "Estoy viviendo en"
+        },
+        {
+          "text": "Me encuentro en"
+        },
+        {
+          "text": "Me ubico en"
+        },
+        {
+          "text": "Resido en"
+        },
+        {
+          "text": "Soy de"
+        },
+        {
+          "text": "Vivo en"
+        }
+      ],
+      "description": "Obtener ciudad del cliente"
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "dime"
+        },
+        {
+          "text": "hola mi nombre es"
+        },
+        {
+          "text": "Hola, mi nombre es"
+        },
+        {
+          "text": "hola soy"
+        },
+        {
+          "text": "lamame"
+        },
+        {
+          "text": "Llamame"
+        },
+        {
+          "text": "Me dicen"
+        },
+        {
+          "text": "Me llamo"
+        },
+        {
+          "text": "mellamo"
+        },
+        {
+          "text": "mi nombre es"
+        },
+        {
+          "text": "Soy"
+        }
+      ],
+      "description": "Recolectar nombre de cliente"
+    },
+    {
+      "intent": "conocer_sobre_empresa_servicios",
+      "examples": [
+        {
+          "text": "cuentame de los servicios que brindan"
+        },
+        {
+          "text": "cuentame de los servicios que ofrecen"
+        },
+        {
+          "text": "cuentame sobre Fake it solutions"
+        },
+        {
+          "text": "cuenta sobre la empresa"
+        },
+        {
+          "text": "dame info de la empresa"
+        },
+        {
+          "text": "dame informacion sobre la empresa"
+        },
+        {
+          "text": "dame informacion sobre la organizacion"
+        },
+        {
+          "text": "de que se encarga la compañia"
+        },
+        {
+          "text": "de que se encarga la empresa"
+        },
+        {
+          "text": "dime sobre los servicios"
+        },
+        {
+          "text": "hablame de la organizacion"
+        },
+        {
+          "text": "que hace fake it solutions"
+        },
+        {
+          "text": "que hace la empresa"
+        },
+        {
+          "text": "que servicios brinda la compañia"
+        },
+        {
+          "text": "que servicios brindan actualmente"
+        },
+        {
+          "text": "que servicios dan actualmente"
+        },
+        {
+          "text": "que servicios ofrece la empresa"
+        },
+        {
+          "text": "que servicios ofrece la organizacion"
+        },
+        {
+          "text": "que servicios ofrecen"
+        },
+        {
+          "text": "que servicios ofrecen en fake it solutions"
+        },
+        {
+          "text": "que servicios puedo adquirir"
+        },
+        {
+          "text": "que servicios puedo obtener"
+        },
+        {
+          "text": "quiero saber mas de Fake IT Solutions"
+        },
+        {
+          "text": "quiero saber mas sobre la empresa"
+        },
+        {
+          "text": "quiero saber sobre los servicios"
+        },
+        {
+          "text": "servicios que puedo obtener"
+        }
+      ],
+      "description": "El cliente desea saber información sobre la empresa y sus servicios"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Chao"
+        },
+        {
+          "text": "Chau"
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "Me voy"
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Alo"
+        },
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "no_transferir_con_humano",
+      "examples": [
+        {
+          "text": "no ahora"
+        },
+        {
+          "text": "no deseo"
+        },
+        {
+          "text": "no deseo que me transfieras"
+        },
+        {
+          "text": "no gracias"
+        },
+        {
+          "text": "no lo hagas"
+        },
+        {
+          "text": "no me comuniques"
+        },
+        {
+          "text": "no me envies"
+        },
+        {
+          "text": "No me transfieras"
+        },
+        {
+          "text": "no quiero"
+        },
+        {
+          "text": "prefiero que no"
+        }
+      ],
+      "description": "El cliente no desea ser transferido"
+    },
+    {
+      "intent": "otro_problema",
+      "examples": [
+        {
+          "text": "El problema es de otra parte"
+        },
+        {
+          "text": "Es otro"
+        },
+        {
+          "text": "Es otro problema"
+        },
+        {
+          "text": "Estoy teniendo otro problema"
+        },
+        {
+          "text": "Es un problema de otra parte"
+        },
+        {
+          "text": "Es un problema diferente"
+        },
+        {
+          "text": "Es un tipo diferente de problema"
+        },
+        {
+          "text": "Me sale otro problema"
+        },
+        {
+          "text": "Mi problema es distinto"
+        },
+        {
+          "text": "Mi problema no tiene que ver con mi impresora"
+        },
+        {
+          "text": "No tiene nada que ver con la impresora"
+        },
+        {
+          "text": "Presente otro problema"
+        },
+        {
+          "text": "Presento otro problema"
+        },
+        {
+          "text": "Presento un problema diferente"
+        },
+        {
+          "text": "Sucede otro problema"
+        },
+        {
+          "text": "Tengo otro problema"
+        }
+      ],
+      "description": "El cliente menciona un problema no relacionado a su impresora"
+    },
+    {
+      "intent": "problema_general",
+      "examples": [
+        {
+          "text": "acabo de ver un error"
+        },
+        {
+          "text": "acabo de ver un problema"
+        },
+        {
+          "text": "encontre un error"
+        },
+        {
+          "text": "esta apareciendo un error"
+        },
+        {
+          "text": "estoy atascado con un problema"
+        },
+        {
+          "text": "estoy experimentando un problema"
+        },
+        {
+          "text": "estoy pasando por un problema"
+        },
+        {
+          "text": "estoy psando por un prbolema"
+        },
+        {
+          "text": "estoy teniendo un problema"
+        },
+        {
+          "text": "estoy teniendo un problemita"
+        },
+        {
+          "text": "esty tneiendo un prblema"
+        },
+        {
+          "text": "ha surgido un problema"
+        },
+        {
+          "text": "he descubierto un error"
+        },
+        {
+          "text": "he descubierto un problema"
+        },
+        {
+          "text": "me ha aparecido un error"
+        },
+        {
+          "text": "me ha salido un error"
+        },
+        {
+          "text": "me ha saltado un error"
+        },
+        {
+          "text": "me ha saltado un problema"
+        },
+        {
+          "text": "me he encontrado con un problema"
+        },
+        {
+          "text": "me he topado con un problema"
+        },
+        {
+          "text": "me sale unerror"
+        },
+        {
+          "text": "quiero que me ayudes con un problema"
+        },
+        {
+          "text": "tngo un prblma"
+        }
+      ],
+      "description": "El cliente menciona que tiene un problema"
+    },
+    {
+      "intent": "problema_impresora",
+      "examples": [
+        {
+          "text": "Es en relación con mi impresora"
+        },
+        {
+          "text": "Esta fallando mi impresora"
+        },
+        {
+          "text": "Es un error con mi impresora"
+        },
+        {
+          "text": "Es un problema con mi impresora"
+        },
+        {
+          "text": "Existe un problema con mi impresora"
+        },
+        {
+          "text": "Hay una falla en mi impresora"
+        },
+        {
+          "text": "Hay un problema con mi impresora"
+        },
+        {
+          "text": "Impresora"
+        },
+        {
+          "text": "La impresora"
+        },
+        {
+          "text": "Mi impresora"
+        },
+        {
+          "text": "Mi impresora se encuentra fallando"
+        },
+        {
+          "text": "Se refiere a mi impresora"
+        },
+        {
+          "text": "Se relaciona a mi impresora"
+        },
+        {
+          "text": "Se trata de mi impresora"
+        },
+        {
+          "text": "Si, es mi impresora"
+        },
+        {
+          "text": "Tiene que ver con mi impresora"
+        },
+        {
+          "text": "Trata sobre mi impresora"
+        }
+      ],
+      "description": "El usuario menciona que tiene un problema con su impresora"
+    },
+    {
+      "intent": "transferir_con_humano",
+      "examples": [
+        {
+          "text": "comunicame con una persona"
+        },
+        {
+          "text": "deseo"
+        },
+        {
+          "text": "enviame"
+        },
+        {
+          "text": "enviame con una persona"
+        },
+        {
+          "text": "enviame con un humano"
+        },
+        {
+          "text": "enviame con un representante"
+        },
+        {
+          "text": "lo deseo"
+        },
+        {
+          "text": "mandame con un asistente humano"
+        },
+        {
+          "text": "mandame una persona"
+        },
+        {
+          "text": "quiero una persona"
+        },
+        {
+          "text": "quiero un humano"
+        },
+        {
+          "text": "transferime con un humano"
+        },
+        {
+          "text": "transfiereme"
+        },
+        {
+          "text": "transfiereme con un representante"
+        }
+      ],
+      "description": "El cliente desea ser transferido con un humano"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aguascalientes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arequipa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Asunción",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Barquisimeto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Barranquilla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belém",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belo Horizonte",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bogotá",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brasilia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bucaramanga",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Buenos Aires",
+          "synonyms": [
+            "BAires"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cali",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Campinas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Caracas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cartagena",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ciudad de Panamá",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ciudad Juárez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cochabamba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Córdoba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cúcuta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cuernavaca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Curitiba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fortaleza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Goiânia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guadalajara",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guatemala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guayaquil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "La Habana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "La Paz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "León",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lima",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Managua",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manaus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maracaibo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maracay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Medellín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mérida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Monterrey",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Montevideo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Natal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Porto Alegre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puebla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puerto Príncipe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Querétaro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quito",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recife",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Río de Janeiro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosario",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Salvador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San José",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Juan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Luis Potosí",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Pedro Sula",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Salvador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Santa Cruz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Santiago de Chile",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Santo Domingo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Santos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "São Luís",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tegucigalpa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tijuana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toluca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Torreón",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trujillo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tucumán",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valencia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valparaíso",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vitória",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "modeloImpresora",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "A1201",
+          "synonyms": [
+            "a1201"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A1202",
+          "synonyms": [
+            "a1202"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A1203",
+          "synonyms": [
+            "a1203"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "B904",
+          "synonyms": [
+            "b904"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "B905",
+          "synonyms": [
+            "b905"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "Otro",
+          "patterns": [
+            "([A-Za-z][0-9][0-9][0-9][0-9])"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alexandre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Almendra",
+          "synonyms": [
+            "almendra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ana",
+          "synonyms": [
+            "ana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ana Lucía",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ana Sofía",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Antonella",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Antônia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Armando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benicio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bruno",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Camila",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carlos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carmen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carol",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carolina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Catalina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "daniel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Danilo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "David",
+          "synonyms": [
+            "david"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Diego",
+          "synonyms": [
+            "diego"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dulce María",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "efrain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "efraín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emilia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emiliano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fabio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Felipe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fernando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "francisco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gabriela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Giancarlo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ignacio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isabella",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jerónimo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jimena",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joaquín",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jorge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Josefina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Josue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Juana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Juan Ignacio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Juliana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Julieta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karol",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lorenzo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lucas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lucia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lucía",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luciana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "María del Carmen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "María Guadalupe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "María José",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mariana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mariano",
+          "synonyms": [
+            "mariano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "martin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Martina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mateo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Matías",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maximiliano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Miguel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Miguel Ángel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "natalia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Patrícia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Regina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Renata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ricardo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Roberto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rosa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Salomé",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Samuel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Santiago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sofía",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sônia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thiago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomás",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valentina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valentino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valeria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Victoria",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://help.maratona.dev/",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, me llamo FayeBot. Soy un asistente virtual de Fake IT.  ¿Cómo te gustaría que te llame?"
+              },
+              {
+                "text": "Hola, soy FayeBot, y estoy listo para ayudarte. ¿Cómo te gustaría que te llame?"
+              },
+              {
+                "text": "Hola, soy FayeBot y te ayudaré en lo que necesites. ¿Cómo te gustaría que te llame?"
+              },
+              {
+                "text": "Hola, soy FayeBot y trabajo para Fake IT. ¿Cómo te gustaría que te llame?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome || #General_Greetings",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_2_1638904499718",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1638810027190",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1638827275049",
+      "previous_sibling": "slot_1_1638834440648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1638834440648",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1638834440648",
+      "previous_sibling": "handler_4_1638834440648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1638890368831",
+      "context": {
+        "otro_problema": "#otro_problema"
+      },
+      "conditions": "#otro_problema",
+      "event_name": "input",
+      "dialog_node": "handler_3_1638890368831"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1638834440648",
+      "context": {
+        "otro_problema": "@modeloImpresora:Otro"
+      },
+      "conditions": "@modeloImpresora:Otro",
+      "event_name": "input",
+      "dialog_node": "handler_4_1638834440648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1638890368831",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1638890368831",
+      "previous_sibling": "handler_3_1638890368831"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1638831276252",
+      "context": {
+        "city": "@city"
+      },
+      "conditions": "@city",
+      "event_name": "input",
+      "dialog_node": "handler_5_1638831276264"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1638831222530",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1638831222543",
+      "previous_sibling": "handler_8_1638831222543"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1638831222530",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_8_1638831222543"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1638831276252",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1638831276264",
+      "previous_sibling": "handler_5_1638831276264"
+    },
+    {
+      "type": "standard",
+      "title": "Detectar Problema",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#problema_general || #otro_problema || #problema_general || #conocer_sobre_empresa_servicios",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1638643553183",
+      "previous_sibling": "node_4_1638640517572"
+    },
+    {
+      "type": "standard",
+      "title": "Problema con la Impresora",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entiendo. ¿Me indica el modelo de su impresora?"
+              },
+              {
+                "text": "Correcto. ¿Cuál es el modelo de su impresora?"
+              },
+              {
+                "text": "¿Me proporciona el modelo de su impresora? Muchas gracias"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1638643553183",
+      "conditions": "#problema_impresora",
+      "dialog_node": "node_1_1638809552754"
+    },
+    {
+      "type": "frame",
+      "title": "Otro Problema",
+      "output": {},
+      "parent": "node_1_1638643553183",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#otro_problema || @modeloImpresora:Otro",
+      "dialog_node": "node_1_1638890368830",
+      "previous_sibling": "node_1_1638809552754"
+    },
+    {
+      "type": "frame",
+      "title": "Nombre del Cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Hola, @name! ¿Desde que ciudad nos escribes?"
+              },
+              {
+                "text": "¡Hola, @name! ¿En que ciudad te encuentras?"
+              },
+              {
+                "text": "Bienvenid@ @name ¿En qué ciudad vives?"
+              },
+              {
+                "text": "¡Un gusto @name! ¿Cómo se llama la ciudad dónde vives?"
+              },
+              {
+                "text": "¡Hola, @name! ¿En que ciudad te ubicas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "@name || #collect_name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1638635701955",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "frame",
+      "title": "Respuestas para Impresora",
+      "parent": "node_1_1638809552754",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@modeloImpresora || @modeloImpresora:Otro",
+      "dialog_node": "node_2_1638810027190"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Muchas gracias por tu visita!"
+              },
+              {
+                "text": "¡Nos vemos en otra oportunidad!"
+              },
+              {
+                "text": "¡Nos vemos pronto!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_2_1638904499718",
+      "previous_sibling": "node_6_1638885682180"
+    },
+    {
+      "type": "frame",
+      "title": "Locación del Cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muchas gracias por tu respuesta. ¿Cómo puedo ayudarte?"
+              },
+              {
+                "text": "Gracias por responder. ¿En qué puedo ayudarte?"
+              },
+              {
+                "text": "Perfecto. ¿De que forma puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@city || #collect_city",
+      "dialog_node": "node_4_1638640517572",
+      "previous_sibling": "node_2_1638635701955"
+    },
+    {
+      "type": "standard",
+      "title": "Transferir con Representante",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "city": "$city",
+            "name": "$name",
+            "problem": "$otro_problema"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#transferir_con_humano || #no_transferir_con_humano",
+      "dialog_node": "node_6_1638885682180",
+      "previous_sibling": "node_1_1638643553183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1638643553183",
+      "conditions": "#otro_problema",
+      "dialog_node": "response_10_1638826851471",
+      "previous_sibling": "response_4_1638815539859"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para el modelo A1202, el driver es: https://fake.drivers.example.com/printer/A1202"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1638810027190",
+      "conditions": "@modeloImpresora:A1202",
+      "dialog_node": "response_2_1638810309821",
+      "previous_sibling": "response_9_1638810124672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No hay un asistente humano disponible. Por favor, vuelva a intentarlo pronto."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1638885682180",
+      "conditions": "$webhook_result_1.available=false",
+      "dialog_node": "response_2_1638886132202",
+      "previous_sibling": "response_9_1638885740780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muchas gracias por tu respuesta. ¿Cómo puedo ayudarte?"
+              },
+              {
+                "text": "Gracias por responder. ¿En qué puedo ayudarte?"
+              },
+              {
+                "text": "Perfecto. ¿De que forma puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1638640517572",
+      "disabled": true,
+      "dialog_node": "response_3_1638827588461",
+      "previous_sibling": "slot_9_1638831276252"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Es sobre tu impresora o tienes otro tipo de problema?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1638643553183",
+      "conditions": "#problema_general",
+      "dialog_node": "response_3_1638832062926",
+      "previous_sibling": "node_1_1638890368830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Desee que lo ayude con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1638885682180",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1638640517572"
+      },
+      "conditions": "#no_transferir_con_humano",
+      "dialog_node": "response_3_1638886725010"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para el modelo B904, el driver es: https://fake.drivers.example.com/printer/B904"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1638810027190",
+      "conditions": "@modeloImpresora:B904",
+      "dialog_node": "response_4_1638810495727",
+      "previous_sibling": "response_7_1638810452806"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1638643553183",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1638809552754"
+      },
+      "conditions": "#problema_impresora",
+      "dialog_node": "response_4_1638815539859",
+      "previous_sibling": "response_3_1638832062926"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para el modelo B905, el driver correcto es: https://fake.drivers.example.com/printer/B905"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1638810027190",
+      "conditions": "@modeloImpresora:B905",
+      "dialog_node": "response_5_1638810522043",
+      "previous_sibling": "response_4_1638810495727"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fake IT Solutions es una empresa informática con operaciones en LATAM reconocida por la venta de impresoras. Actualmente, solo ofrecemos ayuda para problemas con impresoras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1638643553183",
+      "conditions": "#conocer_sobre_empresa_servicios",
+      "dialog_node": "response_5_1638889478827",
+      "previous_sibling": "response_10_1638826851471"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Desea que lo transfiere con un asistente humano?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1638890368830",
+      "conditions": "#otro_problema",
+      "dialog_node": "response_5_1638890368831",
+      "previous_sibling": "slot_2_1638890368831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Desea que lo transfiere con un asistente humano?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1638890368830",
+      "conditions": "@modeloImpresora:Otro",
+      "dialog_node": "response_6_1638890368831",
+      "previous_sibling": "response_5_1638890368831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para el modelo A1203, el driver indicado es: https://fake.drivers.example.com/printer/A1203"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1638810027190",
+      "conditions": "@modeloImpresora:A1203",
+      "dialog_node": "response_7_1638810452806",
+      "previous_sibling": "response_2_1638810309821"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1638810027190",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1638890368830"
+      },
+      "conditions": "@modeloImpresora:Otro",
+      "dialog_node": "response_7_1638834543098",
+      "previous_sibling": "response_5_1638810522043"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para el modelo A1201, el driver es: https://fake.drivers.example.com/printer/A1201"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1638810027190",
+      "conditions": "@modeloImpresora:A1201",
+      "dialog_node": "response_9_1638810124672",
+      "previous_sibling": "handler_1_1638827275049"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Transfiriendo con un representante humano."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1638885682180",
+      "conditions": "$webhook_result_1.available=true",
+      "dialog_node": "response_9_1638885740780",
+      "previous_sibling": "response_3_1638886725010"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1638810027190",
+      "variable": "$otro_problema",
+      "dialog_node": "slot_1_1638834440648"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1638890368830",
+      "variable": "$otro_problema",
+      "dialog_node": "slot_2_1638890368831"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1638635701955",
+      "variable": "$name",
+      "dialog_node": "slot_3_1638831222530"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1638640517572",
+      "variable": "$city",
+      "dialog_node": "slot_9_1638831276252"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Asistencia",
+  "language": "es",
+  "description": "Asistencia Virtual a Clientes"
+}
