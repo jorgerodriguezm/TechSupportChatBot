@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/jorgerodriguezm/TechSupportChatBot/blob/main/Assets/background.png)
 
 ## About this Repository
 
@@ -8,9 +8,9 @@ The goal of this repository is to create a virtual assistant that will be used b
 
 ### Chatbot json:
 
-- [Intents and Dialogs nodes]()
+- [Intents and Dialogs nodes](https://github.com/jorgerodriguezm/TechSupportChatBot/blob/main/Chatbot/Asistencia-dialog.json)
 
-### Chatbot trial:
+### Chatbot Trial:
 
 - [Algar Tech Bot](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=52a91eaf-0797-4625-9eaa-4c535d5940b3&serviceInstanceID=8c480ec5-3703-4afc-a406-97b41b096abf)
 
