@@ -16,7 +16,7 @@ The goal of this repository is to create a virtual assistant that will be used b
 
 ### Certificate
 
-![](https://github.com/jorgerodriguezm/TechSupportChatBot/blob/main/Assets/Certificado_Desafio20%4.png)
+![](https://github.com/jorgerodriguezm/TechSupportChatBot/blob/main/Assets/Certificado_Desafio%204.png)
 
 ## Challenge 04 | Algar Tech
 
