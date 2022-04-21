@@ -14,6 +14,10 @@ The goal of this repository is to create a virtual assistant that will be used b
 
 - [Algar Tech Bot](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=52a91eaf-0797-4625-9eaa-4c535d5940b3&serviceInstanceID=8c480ec5-3703-4afc-a406-97b41b096abf)
 
+### Certificate
+
+![](https://github.com/jorgerodriguezm/TechSupportChatBot/blob/main/Assets/Certificado_Desafio20%4.png)
+
 ## Challenge 04 | Algar Tech
 
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
